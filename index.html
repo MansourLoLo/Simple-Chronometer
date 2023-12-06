@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cuenta Regresiva </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="reloj">
+            
+            <h1 id="Horas"> 00 </h1>
+            <span> : </span>
+            <h1 id="Minutos"> 00 </h1>
+            <span> : </span>
+            <h1 id="Segundos"> 00 </h1>
+        </div>
+        
+        <div class="control">
+            <button title="Empezar cronometro" id="empezar" onclick="iniciarContador ()"> <img src="img/Empezar.png" alt=""> </button>
+            <button title="Pausar cronometro" id="pausar" onclick="pausarContador ()"> <img src="img/Pausar.png" alt=""> </button>
+            <button title="Detener cronometro" id="parar" onclick="DetenerContador ()"> <img src="img/Detener.png" alt=""> </button>
+            
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
